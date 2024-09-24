@@ -26,7 +26,7 @@
 1. Подключите поднятый вами prometheus, как источник данных.
 1. Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
 
-![1]()
+![1](https://github.com/smabramov/10-monitoring-03-grafana/blob/882366a8b7229ae98cbed3888bed237547aa548c/png/1.png)
 
 ## Задание 2
 
@@ -70,22 +70,23 @@ node_filesystem_avail_bytes{job=~"nodeexporter",mountpoint="/",fstype!="rootfs"}
 
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
 
-![2]()
+![2](https://github.com/smabramov/10-monitoring-03-grafana/blob/882366a8b7229ae98cbed3888bed237547aa548c/png/2.png)
 
 ## Задание 3
 
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
-![3]()
+![3](https://github.com/smabramov/10-monitoring-03-grafana/blob/882366a8b7229ae98cbed3888bed237547aa548c/png/3.png)
 
-![4]()
+![4](https://github.com/smabramov/10-monitoring-03-grafana/blob/882366a8b7229ae98cbed3888bed237547aa548c/png/4.png)
 
 ## Задание 4
 
 1. Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
 1. В качестве решения задания приведите листинг этого файла.
 
+[json](https://github.com/smabramov/10-monitoring-03-grafana/blob/882366a8b7229ae98cbed3888bed237547aa548c/json)
 ---
 
 ### Как оформить решение задания
